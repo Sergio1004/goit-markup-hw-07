@@ -1,6 +1,7 @@
 // UTILS
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/mixins";
 
 // BASE
 @import "./base/common";
@@ -8,6 +9,9 @@
 
 // COPMPONENTS
 @import "./components/title";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/social-list";
 
 // LAYOUT
 @import "./layout/header";
@@ -18,4 +22,4 @@
 @import "./layout/our-clients";
 @import "./layout/footer";
 @import "./layout/portfolio";
-@import "./layout/modal";
+@import "./layout/modal-form";
